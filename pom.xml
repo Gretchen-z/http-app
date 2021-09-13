@@ -15,6 +15,13 @@
         <http-server.version>1.0</http-server.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Gretchen-z/http-server</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
